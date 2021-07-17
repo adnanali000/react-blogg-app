@@ -49,3 +49,17 @@
   margin-bottom: 8px;
   color: gray;
 }
+
+/* delete button  */
+.delbtn{
+  padding: 3px;
+  border-color: red;
+  background-color: white;
+  color: grey;
+  margin: 5px;
+  font-size: 12px;
+}
+.delbtn:hover{
+  color: white;
+  background-color: red;
+}
