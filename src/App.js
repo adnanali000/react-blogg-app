@@ -1,12 +1,25 @@
 import Navbar from './Navbar';
 import Home from './Home';
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import CreateBlog from './CreateBlog';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Navbar />
-      <Home />
+      <div className="content">
+        <Switch>
+          <Route exact path="/">
+              <Home />
+          </Route>
+          <Route path="/createBlog">
+              <CreateBlog />
+          </Route>
+        </Switch>
+      </div>
     </div>
+    </Router>
   );
 }
 
