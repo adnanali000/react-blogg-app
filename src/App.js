@@ -13,7 +13,7 @@ function App() {
           <Route exact path="/">
               <Home />
           </Route>
-          <Route path="/createBlog">
+          <Route path="/createblog">
               <CreateBlog />
           </Route>
         </Switch>
