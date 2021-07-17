@@ -50,6 +50,10 @@
   color: gray;
 }
 
+.blog-preview a {
+  text-decoration: none;
+}
+
 /* delete button  */
 .delbtn{
   padding: 3px;
