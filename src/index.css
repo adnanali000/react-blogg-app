@@ -67,3 +67,48 @@
   color: white;
   background-color: red;
 }
+
+/* create blog form  */
+.blogForm{
+  max-width: 400px;
+  margin: 0px auto;
+  text-align: center;
+}
+.blogForm label{
+  text-align: left;
+  display: block;
+  color: grey;
+}
+.blogForm h2{
+  font-size: 25px;
+  color: grey;
+  margin-bottom: 30px;
+}
+.blogForm input,.blogForm textarea , .blogForm select{
+  width: 100%;
+  padding: 10px 16px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.blogForm input:active{
+  border-color: red;
+}
+.blogForm button{
+  color: grey;
+  background-color: white;
+  border: 1px solid gray;
+  padding:5px;
+  border-radius: 8px;
+  cursor:pointer;
+  margin-left: 80%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.blogForm button:hover{
+  background-color: red;
+  color: white;
+}
+
+
