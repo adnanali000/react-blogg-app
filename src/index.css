@@ -128,3 +128,13 @@
   color: white;
   background-color: red;
 }
+
+
+/* not found page  */
+.notfound{
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  color: red;
+  line-height: 1.5;
+}
