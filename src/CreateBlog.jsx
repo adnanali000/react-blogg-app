@@ -5,10 +5,17 @@ const CreateBlog = () => {
     const [body,setBody] = useState('');
     const [author,setAuthor] = useState('adnan');
 
+    const submitHandler = (e)=>{
+        e.preventDefault();
+        const blog = {title,body,author};
+
+        console.log(blog);
+    }
+
     return ( 
         <div className="blogForm">
             <h2>Add New Blog</h2>
-            <form>
+            <form onSubmit={submitHandler}>
                 <label>Blog title: </label>
                 <input type="text" 
                 value = {title}
@@ -29,9 +36,6 @@ const CreateBlog = () => {
                     <option value="adnan ali">Adnan Ali</option>
                 </select>
                 <button>Add blog</button>
-                <p>{title}</p>
-                <p>{body}</p>
-                <p>{author}</p>
             </form>
         </div>
      );
