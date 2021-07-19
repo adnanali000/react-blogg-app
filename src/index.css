@@ -92,8 +92,9 @@
   box-sizing: border-box;
   display: block;
 }
-.blogForm input:active{
-  border-color: red;
+.blogForm input:focus,.blogForm textarea:focus{
+  outline: none;
+  border:2px solid grey;
 }
 .blogForm button{
   color: grey;
